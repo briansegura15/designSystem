@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0 10%;
+}
+
+h1 {
+  font-weight: bold;
+  display: block;
+  margin: 25px;
+}
+
+h2 {
+  margin: 25px;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.color-container {
+  width: 100%;
+  margin-block-start: 25px;
+  margin-block-end: 25px;
+}
+
+.skyze {
+  color: white;
+  background-color: #4cc9f0;
+}
+.fuegoz {
+  color: white;
+  background-color: #f72585;
+}
+
+.murple {
+  color: white;
+  background-color: #3a0ca3;
+}
+.verdura {
+  color: white;
+  background-color: #90be6d;
+}
+
+p {
+  display: block;
+  margin: 50px 0;
+}
+
+section {
+  border: 2px solid gainsboro;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.font-container {
+  width: 100%;
+  margin-block-start: 25px;
+  margin-block-end: 25px;
+}
+
+.font-section {
+  display: inline-block;
+  width: 33%;
+  text-align: left;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.lora {
+  font-family: "Lora", serif;
+}
+
+.smooch {
+  font-family: "Smooch Sans", sans-serif;
+}
+
+.teko {
+  font-family: "Teko", sans-serif;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.font-container p {
+  font-size: 25px;
+  width: 45%;
+}
+
+.font-title {
+  text-decoration: underline;
+  /* font-size: 40px; */
+}
+
+#font-title {
+  font-size: 60px;
+}
+
+.text-section h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Teko", sans-serif;
+}
+.text-section h2 {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Smooch Sans", sans-serif;
+}
+.text-section p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Smooch Sans", sans-serif;
+  margin: 25px;
+}
+
+.text-section li {
+  list-style-type: square;
+}
